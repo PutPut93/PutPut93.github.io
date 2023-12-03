@@ -39,7 +39,7 @@ li a:hover{
   opacity: 1;
 }
 .about img {
-  width: 350px;
+  width: 230px;
   border-radius: 50%;
 }
 .main {
@@ -57,20 +57,15 @@ li a:hover{
 }
 .name h1 {
   color: white;
-  font-size: 60px;
+  font-size: 47px;
   text-transform: capitalize;
   margin: 30px auto;
 }
 .name h2 {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   text-transform: capitalize;
   margin: 30px auto;
-}
-.name h3{
-  color: white;
-  
-  text-transform: capitalize;
 }
 .name p {
   color: white;
@@ -79,6 +74,18 @@ li a:hover{
   text-align: left;
   margin: 15px auto;
   background-color: #333;
+}
+.profil{
+  width: 100%;
+  padding: 15px 0px;
+  opacity: 0.85;
+  background-color: #333;
+  color: white;
+}
+.profil h3{
+  text-align: center;
+  text-transform: capitalize;
+  margin: 15px auto;
 }
 .desc {
   width: 100%;
