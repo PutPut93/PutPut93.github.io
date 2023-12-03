@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('asset/background.gif');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li{
+  float: left;
+}
+li a {
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #111;
+}
+.about {
+  width: 100%;
+  padding: 60px 0px;
+  opacity: 1;
+}
+.about img {
+  width: 350px;
+  border-radius: 50%;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.name {
+  width: 550px;
+  text-align: center;
+  margin: auto;
+}
+.name h1 {
+  color: white;
+  font-size: 60px;
+  text-transform: capitalize;
+  margin: 30px auto;
+}
+.name h2 {
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 30px auto;
+}
+.name h3{
+  color: white;
+  
+  text-transform: capitalize;
+}
+.name p {
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: left;
+  margin: 15px auto;
+  background-color: #333;
+}
+.desc {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: white;
+  opacity: 0.85;
+  justify-content: space-around;
+}
+.desc img {
+  height: auto;
+  width: 420px;
+  margin-right: 10px;
+}
+.desc text {
+  width: 550px;
+  padding-left: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.sosmed{
+  width: 100%;
+  opacity: 0.9;
+  color: white;
+}
+.sosmed h1 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.ig-button:hover {
+  transform: scale(1.2);
+}
+
+.ig-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f0f0f0;
+  opacity: 0.9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 45px;
+  transition: transform 0.3s;
+}
+
+.ig-button img {
+  width: 40px; 
+  height: 40px; 
+  margin-bottom: 5px;
+}
